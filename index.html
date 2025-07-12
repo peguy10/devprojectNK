@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpaca Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ALPACA GENERATOR</h1>
+        
+        <div class="app-container">
+            <div class="customization-panel">
+                <h2>ACCESSORIZE THE ALPACAS</h2>
+                <div class="category">
+                    <h3 class="category-title" data-category="hair">Hair</h3>
+                    <div class="options" id="hair-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="ears">Ears</h3>
+                    <div class="options" id="ears-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="eyes">Eyes</h3>
+                    <div class="options" id="eyes-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="mouth">Mouth</h3>
+                    <div class="options" id="mouth-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="neck">Neck</h3>
+                    <div class="options" id="neck-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="leg">Leg</h3>
+                    <div class="options" id="leg-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="accessories">Accessories</h3>
+                    <div class="options" id="accessories-options"></div>
+                </div>
+                
+                <div class="category">
+                    <h3 class="category-title" data-category="backgrounds">Background</h3>
+                    <div class="options" id="backgrounds-options"></div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button id="random">Random</button>
+                    <button id="download">Download</button>
+                </div>
+            </div>
+            
+            <div class="alpaca-preview">
+                <div class="alpaca-image">
+                    <!-- Les différentes parties de l'alpaga seront superposées ici -->
+                    <img id="background" src="" alt="Background">
+                    <img id="eyes" src="" alt="Eyes">
+                    <img id="ears" src="" alt="Ears">
+                    <img id="neck" src="" alt="Neck">
+                    <img id="leg" src="" alt="Leg">
+                    <img id="mouth" src="" alt="Mouth">
+                    <img id="hair" src="" alt="Hair">
+                    <img id="accessories" src="" alt="Accessories">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
